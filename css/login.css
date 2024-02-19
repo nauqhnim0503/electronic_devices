@@ -1,0 +1,77 @@
+body {font-family: Arial, Helvetica, sans-serif;
+ display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+form {
+    border: 3px solid #f1f1f1;
+    width: 50%;
+    flex-direction: column;
+    border-radius: 5px;
+}
+h2 {
+    align-items: center;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  /* float: left; */
+  padding-top: 16px;
+}
+.forget{
+  text-decoration: none;
+  color: black;
+  line-height: 10px;
+  margin-left: 15px;
+}
+.forget:hover{
+  color: #f44336;
+}
+
+
+.register-form{
+  padding: 20px;
+}

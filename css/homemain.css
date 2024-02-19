@@ -1,0 +1,38 @@
+:root{
+    --background-color: #233e92;
+    --text-color: #fff;
+    --font-family: "Roboto", sans-serif;
+    --background-color-sale: #CB1C22;
+    --background-btn-detail: #99A2AA;
+    --background-produt: #f8f9fa;
+}
+
+.home-main{
+    margin-top: 5px;
+}
+
+
+.list-group {
+    height: 100%; /* Chiều cao của list-group bằng chiều cao của ảnh */
+    background-color: #f8f9fa; /* Màu nền cho list-group */
+    border-radius: 8px; /* Bo tròn viền của list-group */
+    padding: 10px; /* Khoảng cách giữa các mục trong list-group */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng cho list-group */
+    display: flex;
+    flex-direction: column;
+}
+.list-group a {
+    color: #212529; /* Màu chữ cho các mục trong list-group */
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển động khi hover */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px; /* Khoảng cách giữa các mục */
+}
+
+.carousel-inner img {
+    border: 2px solid #ccc; /* Đường viền có màu xám (#ccc) và có độ dày là 2px */
+    border-radius: 8px; /* Bo tròn đường viền */
+}

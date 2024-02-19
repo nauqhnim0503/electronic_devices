@@ -1,0 +1,22 @@
+.container{
+    margin-top: 200px;
+}
+.box{
+    background-color: cornflowerblue;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.delete{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}

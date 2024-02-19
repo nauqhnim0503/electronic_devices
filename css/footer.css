@@ -1,0 +1,64 @@
+:root{
+    --background-color: #233e92;
+    --text-color: #fff;
+    --font-family: "Roboto", sans-serif;
+    --background-color-sale: #CB1C22;
+    --background-btn-detail: #99A2AA;
+    --background-produt: #f8f9fa;
+}
+
+.footer{
+    background-color: #f3f4f8;
+}
+.ft-1{
+    align-self: center;
+  
+}
+
+.logo-footer{
+    border-radius: 12px;
+}
+.footer-social{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.ft-2{
+    margin-top: 5px;
+    font-family: "Roboto", sans-serif;
+}
+.footer-social-item{
+    margin-right: 15px;
+}
+
+.footer-registration{
+    margin-top: 10px;
+}
+.footer-registration__input{
+    border-radius: 8px;
+}
+.footer-registration__btn{
+    background-color: #233e92;
+    color: var(--text-color);
+    border-radius: 8px;
+}
+.map{
+    max-height: 300px;
+    margin-top: 10px;
+}
+@media  (min-width:768px ) and (max-width: 1200px){
+    .ft-1{
+        display: none;
+    }
+}
+.footer-title{
+    height: 40px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}

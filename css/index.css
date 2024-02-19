@@ -1,0 +1,307 @@
+
+:root{
+    --background-color: #233e92;
+    --text-color: #fff;
+    --font-family: "Roboto", sans-serif;
+    --background-color-sale: #CB1C22;
+    --background-btn-detail: #99A2AA;
+    --background-produt: #f8f9fa;
+}
+.nav-tt{
+    background-color: var(--background-color);
+    color: #fff;
+}
+
+
+.logo-container,.search-container,.cart-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search{ 
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+.btn-cart{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: var(--background-color);
+    margin: 2px;
+    color: var(--text-color);
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Nav-Menu */
+
+.nav-menu{
+    background-color: var(--background-color);
+    color: #FFFF00;
+    height: 40px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-danhmuc,.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 1400px) {
+    .nav-menu {
+        display: none;
+    }
+
+    
+}
+
+/* HOME Main */
+.home-main{
+    margin-top: 5px;
+}
+
+
+.list-group {
+    height: 100%; /* Chiều cao của list-group bằng chiều cao của ảnh */
+    background-color: #f8f9fa; /* Màu nền cho list-group */
+    border-radius: 8px; /* Bo tròn viền của list-group */
+    padding: 10px; /* Khoảng cách giữa các mục trong list-group */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng cho list-group */
+    display: flex;
+    flex-direction: column;
+}
+.list-group a {
+    color: #212529; /* Màu chữ cho các mục trong list-group */
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển động khi hover */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px; /* Khoảng cách giữa các mục */
+}
+
+.carousel-inner img {
+    border: 2px solid #ccc; /* Đường viền có màu xám (#ccc) và có độ dày là 2px */
+    border-radius: 8px; /* Bo tròn đường viền */
+}
+
+
+
+
+/* #list-group {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+@media (max-width: 576px){
+    .scr-product{
+        justify-content: center;
+    }
+}
+
+.title__iphone__outstanding{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title__iphone__outstanding-detail{
+    color: #d20c2d;
+    text-decoration: none;
+}
+.title__iphone__outstanding-detail:hover{
+    color: #1d1b1b;
+    font-size: large;
+}
+
+.list-products{
+    /* background-color: aqua; */
+    padding: 0;
+    border: 1px solid #CCCCCC;
+    background-color: var(--background-produt);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.product1{
+    height: 450px;
+}
+.pro-sell{
+    display: flex;
+    /* background-color: chocolate; */
+    margin: 0;
+    height: 70px;
+
+    
+    
+}
+
+.giam-gia{
+    /* background-color: #FFFF00; */
+    flex-basis: 50%;
+    align-self: center;
+  
+}
+.sale{
+    /* background-color: burlywood; */
+    align-self: center;
+    flex-basis: 50%;
+}
+.child__giam-gia{
+    background-color: var(--background-color-sale);
+    border-radius: 8px; 
+    padding: 4px;
+    color: var(--text-color);
+   
+}
+.child__sale{
+    /* background-color: cadetblue; */
+    padding: 4px;
+}
+
+.pro-img{
+    /* background-color: #CB1C22; */
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-sp{
+    /* background-color: #FFFF00; */
+    height: 100%;
+    width: 200px;
+}
+.iphone-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+.pro-name{
+    height: 50px;
+    /* background-color: #233e92; */
+    display: block;
+    text-align: center;
+    
+}
+
+.max-line-2{
+    text-decoration: none;
+    color: inherit;  
+    
+    
+}
+
+.max-line-2:hover{
+    color: #337ab7;
+}
+.pro-price{
+    height: 60px;
+    /* background-color: #CCCCCC; */
+    text-align: center;
+}
+.pro-price p{
+   margin-bottom: 5px; 
+}
+.product_price{
+    font-weight: bold;
+    line-height: 21px;
+    color: #d20c2d;
+}
+.product_oldprice{
+    text-align: center;
+    color: #999999;
+    text-decoration: line-through;
+}
+.pro-buy{
+    display: flex;
+    justify-content: center;
+}
+.btn-buy{
+    background-color: var(--background-color-sale);
+    color: var(--text-color);
+    min-width: 100px;
+    margin-right: 4px;
+}
+.btn-detail{
+    background-color: var(--background-btn-detail);
+    color: var(--text-color);
+    min-width: 100px;
+    margin-left: 4px;
+}
+.btn-buy:hover{
+    /* background-color: #d20c2d; */
+    background-color: #1d1b1b;
+    color: var(--text-color);
+}
+.btn-detail:hover{
+    background-color: #1d1b1b;
+    color: var(--text-color);
+}
+
+/* footer */
+.footer{
+    background-color: #f3f4f8;
+}
+.ft-1{
+    align-self: center;
+  
+}
+
+.logo-footer{
+    border-radius: 12px;
+}
+.footer-social{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.ft-2{
+    margin-top: 5px;
+    font-family: "Roboto", sans-serif;
+}
+.footer-social-item{
+    margin-right: 15px;
+}
+
+.footer-registration{
+    margin-top: 10px;
+}
+.footer-registration__input{
+    border-radius: 8px;
+}
+.footer-registration__btn{
+    background-color: #233e92;
+    color: var(--text-color);
+    border-radius: 8px;
+}
+.map{
+    max-height: 300px;
+    margin-top: 10px;
+}
+@media  (min-width:768px ) and (max-width: 1200px){
+    .ft-1{
+        display: none;
+    }
+}
+.footer-title{
+    height: 40px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+

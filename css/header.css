@@ -1,0 +1,65 @@
+
+:root{
+    --background-color: #233e92;
+    --text-color: #fff;
+    --font-family: "Roboto", sans-serif;
+    --background-color-sale: #CB1C22;
+    --background-btn-detail: #99A2AA;
+    --background-produt: #f8f9fa;
+}
+.nav-tt{
+    background-color: var(--background-color);
+    color: #fff;
+}
+.logo-container,.search-container,.cart-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search{ 
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+.btn-cart{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: var(--background-color);
+    margin: 2px;
+    color: var(--text-color);
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.btn-login{
+    text-decoration: none;
+    color: var(--font-family);
+}
+.btn-cart:hover{
+    background-color: #99A2AA;
+    text-decoration: none;
+}
+
+/* Nav-Menu */
+
+.nav-menu{
+    background-color: var(--background-color);
+    color: #FFFF00;
+    height: 40px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-danhmuc,.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 1400px) {
+    .nav-menu {
+        display: none;
+    }
+
+}
